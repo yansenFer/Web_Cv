@@ -16,7 +16,13 @@ const IsiHome = ({ isAnimated }: booleanProps) => {
         clearTimeout(timeout)
       }
     } else {
-      setIsHidden(false)
+      const timeout = setTimeout(() => {
+        setIsHidden(false)
+      }, 1000)
+
+      return () => {
+        clearTimeout(timeout)
+      }
     }
   }, [isAnimated])
 
