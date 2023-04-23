@@ -197,7 +197,7 @@ export default function Home() {
           retina_detect: true,
         }}
       />
-      <div className="flex flex-row z-50 w-full h-[90%] justify-center gap-5">
+      <div className="flex flex-row z-[1050] w-full h-[90%] justify-center gap-5">
         {/* menu untuk profile */}
         <div className="bg-[#205295] items-center justify-center rounded-full xl:w-[3%] xl:h-[30%] lg:w-[3%] lg:h-[25%] md:w-[3%] md:h-[20%] sm:w-[3%] sm:h-[15%] w-[3%] h-[20%] flex flex-col gap-5">
           <button
