@@ -13,7 +13,7 @@ const Opening = () => {
   return (
     <>
       <img
-        alt=""
+        alt="profile"
         src={profile.src}
         className="rounded-full mt-10 w-[130px] h-[130px] object-cover"
       />

@@ -34,8 +34,8 @@ const IsiProfile = ({ isAnimated }: booleanProps) => {
         <div
           className={`mt-10 h-screen w-full bg-[#0A2647] ${
             isAnimated
-              ? "animate__animated animate__flipInX animate__fast animate__delay-1s"
-              : `animate__animated animate__flipOutX animate__fast`
+              ? "animate__animated animate__fadeInDown animate__fast animate__delay-1s"
+              : `animate__animated animate__fadeOutUp animate__fast`
           }  h-max-screen overflow-y-scroll rounded-[40px]`}
         >
           <div className="flex flex-col ml-10 mt-5">
