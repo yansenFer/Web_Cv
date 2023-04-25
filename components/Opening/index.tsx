@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Instagram, Facebook, Whatsapp } from "iconsax-react"
-import profile from "../../assets/profile.png"
+import profile from "../../assets/profile.jpg"
 
 const Opening = () => {
   const handleExternallink = (link: string) => {
